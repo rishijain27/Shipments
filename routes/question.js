@@ -63,7 +63,7 @@ router.put("/upvote/:questionId", requireLogin, (req, res) => {
 
 router.put("/downvote/:questionId", requireLogin, (req, res) => {
   Question.findByIdAndUpdate(
-    req.body.questionId,
+    req.params.questionId,
     {
       $pull: { likes: req.user._id },
     },
