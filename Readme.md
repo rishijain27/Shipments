@@ -8,7 +8,7 @@ Project Link:- https://shipments-ten.vercel.app/
 ## Installation
 
 ### Clone the repository:
-`git clone https://github.com/yourusername/stackflow-clone.git`
+`git clone https://github.com/yourusername/Shipments.git`
 
 Navigate to the project directory:
 `cd stackflow-clone`
@@ -19,7 +19,7 @@ Navigate to the project directory:
 ### Start the server:
 `npm start`
 
-Open your browser and navigate to http://localhost:3000.
+Open your browser and navigate to http://localhost:5000.
 
 ## Usage
 
